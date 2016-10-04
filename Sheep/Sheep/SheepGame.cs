@@ -2,15 +2,20 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Sheep {
+namespace SheepGame
+{
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class SheepGame : Game {
+    public class SheepGame : Game
+    {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public SheepGame() {
+        Sheep sheep;
+
+        public SheepGame()
+        {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
@@ -21,9 +26,10 @@ namespace Sheep {
         /// related content.  Calling base.Initialize will enumerate through any components
         /// and initialize them as well.
         /// </summary>
-        protected override void Initialize() {
+        protected override void Initialize()
+        {
             // TODO: Add your initialization logic here
-
+            sheep = new Sheep();
             base.Initialize();
         }
 
@@ -31,9 +37,13 @@ namespace Sheep {
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
         /// </summary>
-        protected override void LoadContent() {
+        protected override void LoadContent()
+        {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            Vector2 sheepPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
+            Texture2D sheepTex = Content.Load<Texture2D>("Graphics\\SingleSheep");
+            sheep.Initialize(sheepTex, sheepPosition);
 
             // TODO: use this.Content to load your game content here
         }
@@ -42,7 +52,8 @@ namespace Sheep {
         /// UnloadContent will be called once per game and is the place to unload
         /// game-specific content.
         /// </summary>
-        protected override void UnloadContent() {
+        protected override void UnloadContent()
+        {
             // TODO: Unload any non ContentManager content here
         }
 
@@ -51,7 +62,8 @@ namespace Sheep {
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        protected override void Update(GameTime gameTime) {
+        protected override void Update(GameTime gameTime)
+        {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
@@ -64,10 +76,14 @@ namespace Sheep {
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        protected override void Draw(GameTime gameTime) {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+        protected override void Draw(GameTime gameTime)
+        {
+            GraphicsDevice.Clear(Color.LawnGreen);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            sheep.Draw(spriteBatch);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

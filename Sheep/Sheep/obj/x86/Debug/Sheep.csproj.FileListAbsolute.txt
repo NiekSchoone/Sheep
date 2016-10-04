@@ -23,3 +23,29 @@ c:\users\terry\documents\visual studio 2015\Projects\Sheep\Sheep\bin\Windows\x86
 c:\users\terry\documents\visual studio 2015\Projects\Sheep\Sheep\obj\x86\Debug\Sheep.csprojResolveAssemblyReference.cache
 c:\users\terry\documents\visual studio 2015\Projects\Sheep\Sheep\obj\x86\Debug\Sheep.exe
 c:\users\terry\documents\visual studio 2015\Projects\Sheep\Sheep\obj\x86\Debug\Sheep.pdb
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\obj\x86\Debug\Sheep.exe
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\obj\x86\Debug\Sheep.pdb
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\Sheep.exe
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\Sheep.pdb
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\MonoGame.Framework.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.XInput.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\MonoGame.Framework.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.XInput.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\obj\x86\Debug\Sheep.csprojResolveAssemblyReference.cache
+F:\GameDevelopement\Monogame\Sheep\Sheep\Sheep\bin\Windows\x86\Debug\Content\Graphics\SingleSheep.png

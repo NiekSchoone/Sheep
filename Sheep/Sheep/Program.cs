@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sheep {
+namespace SheepGame {
 #if WINDOWS || LINUX
     /// <summary>
     /// The main class.
